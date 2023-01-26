@@ -1,0 +1,75 @@
+
+button {
+    padding: 4px;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 20%;
+    margin: 10px;
+    transition: all 0.5s;
+  }
+  span{
+    display: block;
+    font-size: smaller;
+    color: red;
+  }
+  label{
+    /* font-weight: 10; */
+    font-family:  Arial, sans-serif
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: #DEB887;
+  }
+  
+  .login-container {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+   
+  }
+  form{
+    /* background-color: #DEB887; */
+    width: 72%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formContainer {
+    border: 3px solid rgb(188, 127, 127);
+    height: 86%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 10px gray;
+    background-color: lightblue;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .head {
+    text-align: center;
+    color: #A52A2A;
+    font-size: 20px;
+  }
+  .input-container{
+    /* background-color: beige; */
+    width: 85%;
+  }
+  input {
+    margin: 15px;
+    padding: 10px 26px;
+    width: 89%;
+    border: 3px solid rgb(39, 62, 69);
+    border-radius: 5px;
+  }
+  
+  input.ng-touched.ng-invalid {
+    border: 3px solid red;
+    display: block;
+  }
+  
